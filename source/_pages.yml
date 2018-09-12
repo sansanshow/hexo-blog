@@ -1,0 +1,10 @@
+# site
+[
+  { 
+    title: 'about',
+    path: 'some/addr'
+  },
+  { title: '分类',
+    path: 'some/addr'
+  }
+]
