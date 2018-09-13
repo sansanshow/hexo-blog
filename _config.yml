@@ -10,17 +10,26 @@ keywords:
 author: Kovii Ma
 language: 
 timezone:
+featured-tags: true
 
 # custom Site settings
 # more detail check out docs
 SEOTitle: Kovii's blog 
-header-img: http://o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
+header-img: /images/home-bg.jpg
 email: sansan_show@126.com
+
+# posts 
+post-default-img: /images/post-bg-default.jpg
+post-default-index-img: /images/post-bg-index-default.jpg
+post-default-img-mobile: /images/post-bg-universe.jpg
 
 # Sidebar settings
 sidebar-about-description: 我就是我，不一样的烟火 # 个人描述
-sidebar-avatar: /img/one.png # use absolute URL
+sidebar-avatar: /images/avatar.jpg # use absolute URL
 
+friends: [
+  {title: "Jack", href: ''}
+]
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://bugduo.com
@@ -67,20 +76,20 @@ highlight:
   tab_replace:
 
 # RSS
-RSS: true
+# RSS: true
 links:
   feed: 'ssss'
   xml: 'no'
 # Twitter
-twitter_username: 张三丰
+twitter_username: CoderDevil
 
 # zhihu_username
-zhihu_username: KoviiMa
+zhihu_username: ma_san_37
 
 # weibo_username
 weibo_username: sansanshow
 # facebook_username
-facebook_username: 'facebook_username'
+# facebook_username: 'facebook_username'
 # github_username
 github_username: sansanshow
 
