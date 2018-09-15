@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Haojen # your blog title name
+title: 'Title' # your blog title name
 subtitle:  
-author: Haojen Ma # 作者
+author: Author Ma # 作者
 language: 
 timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Haojen's blog 
+SEOTitle: Your Name's blog 
 header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
-email: HaojenMa@gmail.com
-description: "马浩珍在 Github 上的个人博客"
+email: sansanshow@126.com
+description: "XXX在 Github 上的个人博客"
 keyword: # seo key words
 
 favicon: # your favicon png
@@ -22,7 +22,7 @@ favicon: # your favicon png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://haojen.github.io
+url: http://sansanshow.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

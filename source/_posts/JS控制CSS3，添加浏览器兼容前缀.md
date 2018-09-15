@@ -1,7 +1,10 @@
 ---
 title: JS控制CSS3，添加浏览器兼容前缀
 date: 2018-05-13 16:12:53
-tags: JS CSS3
+tags: 
+    - JS
+    - CSS
+    - CSS3
 ---
 不同的浏览器对于有些css3属性名定义的时候，会加上一些前缀，比如`transform`,
 ```
