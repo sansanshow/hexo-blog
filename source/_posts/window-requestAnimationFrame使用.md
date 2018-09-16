@@ -1,8 +1,9 @@
 ---
 title: window.requestAnimationFrame使用
-date: 2018-06-26 21:40:56
 tags:
-    - JS
+  - JS
+abbrlink: 6ff4728c
+date: 2018-06-26 21:40:56
 ---
 ## 先看MDN文档：
 

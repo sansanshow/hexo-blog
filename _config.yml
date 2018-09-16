@@ -10,7 +10,14 @@ keywords:
 author: Kovii Ma
 language: 
 timezone:
+
+# resume Info
+resume-avatar: /images/one.png
+resume-author: 马伟强
+resume-about-description: The more you know, the more ignorant
+
 featured-tags: true
+featured-condition-size: 1 
 
 # custom Site settings
 # more detail check out docs
@@ -34,20 +41,14 @@ friends: [
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://bugduo.com
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:abbrlink/
 permalink_defaults:
 
-# site
-site:
-  pages: [
-    { 
-      title: 'about',
-      path: 'some/addr'
-    },
-    { title: '分类',
-      path: 'some/addr'
-    }
-  ]
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
 
 # Directory
 source_dir: source
@@ -126,6 +127,7 @@ search:
   path: search.xml
   # 如只想索引文章，可设置为post
   field: all
+  content: true
 
 
 # Extensions

@@ -1,8 +1,9 @@
 ---
 title: sessionStorage移动端兼容问题
-date: 2018-09-13 11:37:45
 tags:
   - JS
+abbrlink: 87feece5
+date: 2018-09-13 11:37:45
 ---
 
 # 关于sessionStorage的移动端兼容问题

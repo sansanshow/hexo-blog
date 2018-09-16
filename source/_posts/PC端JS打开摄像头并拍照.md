@@ -1,8 +1,9 @@
 ---
 title: PC端JS打开摄像头并拍照
+tags:
+  - JS
+abbrlink: 73f78475
 date: 2018-06-22 09:50:06
-tags: 
-    - JS
 ---
 # PC端JS打开摄像头并拍照
 
