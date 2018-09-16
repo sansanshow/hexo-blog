@@ -129,7 +129,7 @@ layout: layout
                     <div class="about-me">
                         <!--移动端头部显示-->
                         <img src="<%= config['sidebar-avatar'] %>"/>
-                        <h5><a href="<%= config.root %>about/"><%= config.author %></a></h5>
+                        <h5><a href="<%= config.root %>my/"><%= config.author %></a></h5>
                         <p><%= config['sidebar-about-description'] %></p>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ layout: layout
                     <!--侧边栏头像-->
                     <img src="<%= config['resume-avatar'] ? config['resume-avatar'] : config['sidebar-avatar']  %>"/>
                     
-                    <h5><a href="<%= config.root %>about/"><%= config['resume-author'] %></a></h5>
+                    <h5><a href="<%= config.root %>my/"><%= config['resume-author'] %></a></h5>
                     <% if(config['resume-about-description']) { %>
                     <p><%= config['resume-about-description'] %></p>
                     <% } %>
